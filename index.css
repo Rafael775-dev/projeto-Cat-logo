@@ -1,0 +1,125 @@
+/* Reset básico */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: skyblue;
+}
+
+/* Header */
+#topo {
+    position: relative;
+    background-image: url("bannerHdA.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color: white;
+    text-align: center;
+    padding: 70px 25px;
+
+    text-shadow: 2px 2px 5px black;
+}
+
+/*mudança de fonte*/
+#topo h1 {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 44px;
+    letter-spacing: 2px;
+    color: white;
+
+}
+
+
+
+#topo p {
+    position: absolute;
+    right: 20px;
+    bottom: 15px;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 14px;
+    color: #fff4c2;
+    padding: 6px 12px;
+    text-shadow: 1px 1px 3px black;
+}
+
+
+
+/* Container */
+#container {
+    width: 90%;
+    margin: 20px auto;
+}
+
+/* Menu lateral */
+.menu {
+    float: left; /* uso de float */
+    width: 25%;
+    background-color: #fde74c;
+    padding: 15px;
+    border: 3px solid #f29e4c;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu ul li {
+    margin-bottom: 10px;
+}
+
+.menu ul li a {
+    color: #b31212;
+    font-weight: bold;
+
+}
+
+
+.conteudo {
+    float: right; /* uso de float */
+    width: 70%;
+    background-color: white;
+    padding: 20px;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+/* Combinador de seletores */
+.conteudo h2 + .bloco {
+    margin-top: 20px;
+}
+
+/* Blocos internos */
+.bloco {
+    border: 2px dashed skyblue; /* borda estilizada */
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+/* Botões */
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    margin-right: 10px;
+    background-color: #9bc53d;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+/* Clear */
+.clear {
+    clear: both;
+}
+
+/* Footer */
+footer {
+    background-color: rgb(25, 96, 25);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
